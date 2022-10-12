@@ -1,0 +1,9 @@
+# ignore binary
+dist/
+
+# ignore settings
+.vscode
+.idea
+
+# ignore cmake
+cmake-build-debug
