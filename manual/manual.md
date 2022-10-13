@@ -129,7 +129,7 @@ Figure 5. SSH links for cloning of repository.
    - `make run`
    - `make debug`
    - `make check`
-   - `make cppcheck` -
+   - `make cppcheck`
 
 Expected output for `git clone` command:
 
