@@ -5,7 +5,8 @@ fontsize: 13pt
 geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 linestretch: 1.2
 mainfont: Noto Serif-Regular
-monofont: Noto Sans Mono-Regular
+# monofont: Noto Sans Mono-Regular
+monofont: DejaVu Sans Mono
 colorlinks: true
 listings: true
 header-includes:
@@ -160,16 +161,22 @@ Figure 7. `Members` tab
 
 ### Cloning progaramming repository
 
-1. Repeat steps 1-3 that have been performed above in [Cloning sample project repository](#cloning-sample-project-repository) for your own `programming-your-surname` repository.
-2. Go to `programming-your-surname` folder.
-3. Create `lab05` folder by typing `mkdir lab05`.
-4. Copy contents of `c_sample_make_project` into `lab05` folder by typing `cp -a ../../c_sample_make_project/. . && rm -rf .git`. The mentioned command copies all files and folders from the `c_sample_make_project` into a current folder and removes `.git` folder. Please check the directory structure by typing `tree`[^3] in the `lab05` folder.
-5. Go to `doc` folder and edit `Report.md` file. It is your report on the lab work.
-6. Use `git add -A` to add all files to your project.
-7. Use `git commit` to commit your changes
-8. Push changes to the remote repository using `git push`
+> In this part, we work with `git`. If you did not use `git` and `git` command line utilities, please go to [Git-Book](https://git-scm.com/book/en/v2) site and read about `git` and `git` utils. There are many translations of "Git book,"  and you can probably find one of them in your native language.
+
+1. Go to `~/dev` (using `cd ~/dev`).
+2. Repeat steps 1-3 that have been performed above in [Cloning sample project repository](#cloning-sample-project-repository) for your own `programming-your-surname` repository.
+3. Go to `programming-your-surname` folder.
+4. Create `lab05` folder (using `mkdir lab05`).
+5. Go to `lab05` folder (using `cd lab05`).
+6. Copy contents of `c_sample_make_project` into `lab05`folder. Yo can use the following comand `cp -a ../../c_sample_make_project/. . && rm -rf .git`. The mentioned command copies all files and folders including hidden, i.e. with the leading dot in a name, from the `c_sample_make_project` into a current folder and removes `.git` folder. Please check the directory structure by typing `tree`[^3] in the `lab05` folder.
+7. Go to `doc` folder and edit `Report.md` file. It is your report on the lab work.
+8. Use `git add -A` to add all files to your project.
+9. Use `git commit` to commit your changes. Add a meaningful comment.[^4]
+10. Push changes to the remote repository using `git push`
 
 [^3]: Use `sudo apt install tree` if `tree` utility does not exist
+
+[^4]: You can use `git commit -m "Some_commit_text_here,"` but we do not recommend using this approach at first.
 
 An expected output after we add all files to git repository:
 
@@ -252,3 +259,5 @@ The last command setups `Visual Studio Code`.
 Go to [C/C++ for Visual Studio Code](https://code.visualstudio.com/docs/languages/cpp), read and set up the environment for C and C++ development.
 
 **Note** we will not use `Visual Studio Code` for compiling and debugging. You must use `lldb` in the fall semester for debugging. You are restricted to using `Visual Studio Code` as a text editor only.
+
+This text is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](./images/CC_BY-SA_Andere_Wikis.png?raw=true "License")
