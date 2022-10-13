@@ -1,29 +1,19 @@
-# Lab work #1. C sample project
+# C Sample Make Project
 
-## Requirement
+Author: &copy; Volodymyr Savchenko, savchenko.volod@gmail.com, 2022
+License: MIT
 
-Create an account on GitHub or GitLab before the lab work if it does not exist.
+**Note**. It is a sample project and should not be used for other purposes than learning.
 
-## Exercise
+The project contains a predefined `Makefile` to build C-projects.
+All source files (`.c` and `.h`) must be placed in the `src` folder.
+To build the project you can use `clang` or `gcc`.
 
-1. Clone GitHub sample project, compile a binary file with `clang` compiler and `make` utility.
-2. Learn `Makefile` basics
-3. Debug a binary file with `lldb` debugger.
-4. Change a source file and repeat steps 1-3
+1. Use `make build` to build your app.
+2. Use `make run` to build and run app.
+3. Use `make debug` to build, run and debug.
+4. Use `make check` to check your code with `clang-tidy`.
+5. Use `make cppcheck` to check your code with `cppcheck`.
+6. Use `make clean` to clean up all binary and temporary artifacts
 
-## Report
-
-Create a report including all performed steps.
-
-## Self-testing questions
-
-1. How do you clone a repo from GitHub/GitLab?
-2. What does `git clone` do?
-3. What does `git diff` do?
-4. What does `git status` do?
-5. How does `git add` work?
-6. How does `git commit` work?
-7. What does `git push` do?
-8. How to compile a program in the command line?
-9. Describe a structure of a `Makefile.`
-10. How did you use the `Makefile` and `make` utility?
+Feel free to make any changes according to your tasks.
