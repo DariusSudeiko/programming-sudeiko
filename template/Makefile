@@ -61,7 +61,7 @@ build: myapp
 # make ./bin dir and compile files
 myapp: $(OBJS)
 	$(shell mkdir -p $(BIN_DIR))
-	$(CC) -o $(BIN_DIR)/$@ $^ $(CFLAGS) $($LDFLAGS)
+	$(CC) -o $(BIN_DIR)/$@ $^ $(CFLAGS) $(LDFLAGS)
 
 # run binary, it depends on 3 targets - clean, prep and compile
 run: clean build
