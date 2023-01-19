@@ -1,4 +1,4 @@
-Programing
+Programming
 
 Darius Sudeiko 
 
