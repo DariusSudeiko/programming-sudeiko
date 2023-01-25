@@ -8,27 +8,33 @@ Purpose: Appropriate to the topic and task
 
 Information about the developer:
 
-- Full Name;
-- The name of the academic group;
-- Task ID.
+- Darius Sudeiko;
+- KH-922i.e;
+- Lab08 arrays.
 
 ### 1.2 General task (according to a variant)
 
-Requirements, limitations, and remarks.
+General task is to understand how to use arrays and how change the information inside them
 
 ### 1.3 Task
 
-Application task according to the option.
+Fill the array of integers of the given size with Fibonacci numbers 
 
 ## 2 Description of the program
 
 ### 2.1 Means
 
-Justification of applied methods and algorithm.
+I begin by tell the program first two arrays and it continues coutning them using the for loop
+The user decides how big the array is.
 
 ### 2.2 Program structure
 
-Description of the program including all datatypes.
+	for (i = 2; i < n; i++) { // i=2 because i already gave the program info about first two segments
+    arr[i]=arr[i-1]+arr[i-2]; // this is how each segment of an array is being counted 
+	}
+	for (i=0; i<n; i++){
+		printf("location in array %d value: %d\n",i, arr[i]); // writing out the parts of the array
+	}
 
 ### 2.3 Important parts of the program
 
