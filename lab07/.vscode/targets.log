@@ -1,3 +1,4 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -5,7 +6,7 @@
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jan 25 13:44:43 2023
+# Make data base, printed on Wed Jan 25 15:54:38 2023
 
 # Variables
 
@@ -54,7 +55,7 @@ LANG = C
 # makefile (from 'Makefile', line 46)
 CPPCHECKFLAGS := --enable=style,warning,missingInclude
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.FSATZ1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.F40KZ1
 # default
 .LOADED := 
 # default
@@ -94,13 +95,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 2524
+VSCODE_PID = 2538
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/darius-VirtualBox:@/tmp/.ICE-unix/1627,unix/darius-VirtualBox:/tmp/.ICE-unix/1627
+SESSION_MANAGER = local/darius-VirtualBox:@/tmp/.ICE-unix/1656,unix/darius-VirtualBox:/tmp/.ICE-unix/1656
 # automatic
 *F = $(notdir $*)
 # environment
@@ -146,7 +147,7 @@ LC_TIME = nl_BE.UTF-8
 # makefile (from 'Makefile', line 38)
 WARN = -Wall -Wextra -Wpedantic -Werror
 # environment
-INVOCATION_ID = 35486c782e50452b87ac0a2e08c2a7f5
+INVOCATION_ID = 8e13d077b9514a0fb9a49f490722095e
 # environment
 USERNAME = darius
 # environment
@@ -180,7 +181,7 @@ SOURCE_DIR = src
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 1695
+SYSTEMD_EXEC_PID = 1780
 # environment
 DISPLAY = :0
 # environment
@@ -192,13 +193,13 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 18)
 LDFLAGS := -lm
 # environment
-MANAGERPID = 1394
+MANAGERPID = 1395
 # environment
 DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
 # environment
 LC_MEASUREMENT = nl_BE.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2524
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2538
 # environment
 _ = /usr/share/code/code
 # environment
@@ -208,7 +209,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # makefile (from 'Makefile', line 34)
 CFLAGS := -std=gnu17 -O0 -g -I src -fno-limit-debug-info -fno-standalone-debug
 # environment
-JOURNAL_STREAM = 8:22254
+JOURNAL_STREAM = 8:22452
 # environment
 XDG_SESSION_CLASS = user
 # makefile (from 'Makefile', line 24)
@@ -255,9 +256,9 @@ LC_IDENTIFICATION = nl_BE.UTF-8
 # Directories
 
 # src (device 2051, inode 925306): 5 files, no impossibilities.
-# . (device 2051, inode 918448): 10 files, no impossibilities.
+# . (device 2051, inode 918448): 12 files, no impossibilities.
 
-# 15 files, no impossibilities in 2 directories.
+# 17 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
@@ -346,7 +347,7 @@ asm: src/main.c
 all: clean build asm debug
 #  Command line target.
 #  Implicit rule search has been done.
-#  File does not exist.
+#  Last modified 2023-01-25 14:28:46.482269059
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
@@ -393,12 +394,12 @@ cppcheck:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 195 B / avg = 7 B
-# current buf: size = 8162 B / used = 195 B / count = 27 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 209 B / avg = 7 B
+# current buf: size = 8162 B / used = 209 B / count = 28 / avg = 7 B
 
-# strcache performance: lookups = 55 / hit rate = 50%
+# strcache performance: lookups = 57 / hit rate = 50%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=0/55=0%
-# Finished Make data base on Wed Jan 25 13:44:43 2023
+# Load=28/8192=0%, Rehash=0, Collisions=0/57=0%
+# Finished Make data base on Wed Jan 25 15:54:38 2023
 
  

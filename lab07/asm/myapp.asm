@@ -26,7 +26,7 @@ main:                                   # @main
 	mov	dword ptr [rbp - 8], eax
 .LBB0_1:                                # =>This Inner Loop Header: Depth=1
 	cmp	dword ptr [rbp - 8], 0
-	jle	.LBB0_3
+	je	.LBB0_4
 # %bb.2:                                #   in Loop: Header=BB0_1 Depth=1
 	mov	eax, dword ptr [rbp - 8]
 	mov	ecx, 10
@@ -36,13 +36,14 @@ main:                                   # @main
 	imul	eax, dword ptr [rbp - 20], 10
 	add	eax, dword ptr [rbp - 16]
 	mov	dword ptr [rbp - 20], eax
+# %bb.3:                                #   in Loop: Header=BB0_1 Depth=1
 	mov	eax, dword ptr [rbp - 8]
 	mov	ecx, 10
 	cdq
 	idiv	ecx
 	mov	dword ptr [rbp - 8], eax
 	jmp	.LBB0_1
-.LBB0_3:
+.LBB0_4:
 	mov	esi, dword ptr [rbp - 12]
 	mov	edx, dword ptr [rbp - 20]
 	lea	rdi, [rip + .L.str.2]

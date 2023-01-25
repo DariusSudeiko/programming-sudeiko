@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jan 25 23:31:19 2023
+# Make data base, printed on Thu Jan 26 00:13:04 2023
 
 # Variables
 
@@ -14,8 +14,6 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
-# environment
-NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -57,7 +55,7 @@ LANG = C
 # makefile (from 'Makefile', line 46)
 CPPCHECKFLAGS := --enable=style,warning,missingInclude
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.3K8GZ1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.TTXDZ1
 # default
 .LOADED := 
 # default
@@ -97,13 +95,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 2552
+VSCODE_PID = 2996
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/darius-VirtualBox:@/tmp/.ICE-unix/1654,unix/darius-VirtualBox:/tmp/.ICE-unix/1654
+SESSION_MANAGER = local/darius-VirtualBox:@/tmp/.ICE-unix/1718,unix/darius-VirtualBox:/tmp/.ICE-unix/1718
 # automatic
 *F = $(notdir $*)
 # environment
@@ -149,7 +147,7 @@ LC_TIME = nl_BE.UTF-8
 # makefile (from 'Makefile', line 38)
 WARN = -Wall -Wextra -Wpedantic -Werror
 # environment
-INVOCATION_ID = 46df7d11e50944589358ac2886882e96
+INVOCATION_ID = 3f9b35ac57ce4d8a8b9a9e2b0b5df3cc
 # environment
 USERNAME = darius
 # environment
@@ -183,7 +181,7 @@ SOURCE_DIR = src
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 1789
+SYSTEMD_EXEC_PID = 1835
 # environment
 DISPLAY = :0
 # environment
@@ -195,13 +193,13 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 18)
 LDFLAGS := -lm
 # environment
-MANAGERPID = 1399
+MANAGERPID = 1405
 # environment
 DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
 # environment
 LC_MEASUREMENT = nl_BE.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2552
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2996
 # environment
 _ = /usr/share/code/code
 # environment
@@ -211,7 +209,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # makefile (from 'Makefile', line 34)
 CFLAGS := -std=gnu17 -O0 -g -I src -fno-limit-debug-info -fno-standalone-debug
 # environment
-JOURNAL_STREAM = 8:22523
+JOURNAL_STREAM = 8:22571
 # environment
 XDG_SESSION_CLASS = user
 # makefile (from 'Makefile', line 24)
@@ -249,7 +247,7 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = nl_BE.UTF-8
 # variable set hash-table stats:
-# Load=119/1024=12%, Rehash=0, Collisions=10/166=6%
+# Load=118/1024=12%, Rehash=0, Collisions=10/165=6%
 
 # Pattern-specific Variable Values
 
@@ -278,9 +276,9 @@ check:
 	rm -rf $(SOURCE_DIR)/*.dump
 
 debug: clean build
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 72):
 	lldb $(BIN_DIR)/$(TARGET)
@@ -402,6 +400,6 @@ cppcheck:
 # strcache performance: lookups = 55 / hit rate = 50%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=0/55=0%
-# Finished Make data base on Wed Jan 25 23:31:19 2023
+# Finished Make data base on Thu Jan 26 00:13:04 2023
 
  
