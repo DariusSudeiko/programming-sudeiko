@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/darius/dev/programming-sudeiko/lab08'
+rm -rf bin asm
+rm -f src/*.o
+clang -std=gnu17 -O0 -g -I src -fno-limit-debug-info -fno-standalone-debug   -c -o src/main.o src/main.c
+clang -o bin/myapp src/main.o -std=gnu17 -O0 -g -I src -fno-limit-debug-info -fno-standalone-debug -lm
+clang -S -mllvm --x86-asm-syntax=intel src/main.c -o asm/myapp.asm
+lldb bin/myapp
+make: Leaving directory '/home/darius/dev/programming-sudeiko/lab08'
+ 
