@@ -1,0 +1,407 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue Jan 24 22:48:47 2023
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = openssh
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+LC_NAME = nl_BE.UTF-8
+# environment
+LC_NUMERIC = nl_BE.UTF-8
+# environment
+VSCODE_CWD = /home/darius
+# environment
+LC_ADDRESS = nl_BE.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/darius/dev/programming-sudeiko/lab06b
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/darius/.config/Code/CachedData/97dec172d3256f8ca4bfb2143f3f76b503ca0534
+# environment
+LANG = C
+# makefile (from 'Makefile', line 46)
+CPPCHECKFLAGS := --enable=style,warning,missingInclude
+# environment
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.MOQDZ1
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile (from 'Makefile', line 20)
+C_STD = gnu17
+# makefile
+CURDIR := /home/darius/dev/programming-sudeiko/lab06b
+# makefile (from 'Makefile', line 35)
+ASM = -S -mllvm --x86-asm-syntax=intel
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# makefile (from 'Makefile', line 27)
+SRCS = $(wildcard $(SOURCE_DIR)/*.c)
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+WAYLAND_DISPLAY = wayland-0
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 2917
+# environment
+XDG_SESSION_TYPE = wayland
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/darius-VirtualBox:@/tmp/.ICE-unix/1657,unix/darius-VirtualBox:/tmp/.ICE-unix/1657
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 28)
+OBJS = $(SRCS:.c=.o)
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# environment
+IM_CONFIG_CHECK_ENV = 1
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = nl_BE.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = nl_BE.UTF-8
+# makefile (from 'Makefile', line 38)
+WARN = -Wall -Wextra -Wpedantic -Werror
+# environment
+INVOCATION_ID = b403194f832a4e30aba92c7c871bd414
+# environment
+USERNAME = darius
+# environment
+GNOME_SETUP_DISPLAY = :1
+# environment
+LC_TELEPHONE = nl_BE.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# makefile (from 'Makefile', line 40)
+CLANGTIDYFLAGS := "-*, clang-analyzer-*,cert-*,readability-*, -readability-uppercase-literal-suffix, -readability-magic-numbers, -clang-analyzer-deadcode.DeadStores, -clang-analyzer-security.insecureAPI.rand"
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = darius
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile (from 'Makefile', line 22)
+SOURCE_DIR = src
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 1798
+# environment
+DISPLAY = :0
+# environment
+USER = darius
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 18)
+LDFLAGS := -lm
+# environment
+MANAGERPID = 1396
+# environment
+DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
+# environment
+LC_MEASUREMENT = nl_BE.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2917
+# environment
+_ = /usr/share/code/code
+# environment
+LC_PAPER = nl_BE.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 34)
+CFLAGS := -std=gnu17 -O0 -g -I src -fno-limit-debug-info -fno-standalone-debug
+# environment
+JOURNAL_STREAM = 8:22476
+# environment
+XDG_SESSION_CLASS = user
+# makefile (from 'Makefile', line 24)
+ASM_DIR = asm
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/darius
+# environment
+QT_IM_MODULE = ibus
+# makefile (from 'Makefile', line 23)
+BIN_DIR = bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-60b16092-1.74.3-main.sock
+# environment
+IM_CONFIG_PHASE = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 25)
+TARGET = myapp
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 7)
+CC = clang
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = nl_BE.UTF-8
+# variable set hash-table stats:
+# Load=119/1024=12%, Rehash=0, Collisions=10/166=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src (device 2051, inode 923608): 5 files, no impossibilities.
+# . (device 2051, inode 923594): 10 files, no impossibilities.
+
+# 15 files, no impossibilities in 2 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+check:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 84):
+	clang-format --verbose -dry-run --Werror $(wildcard $(SOURCE_DIR)/*.c)
+	clang-tidy $(SOURCE_DIR)/*.c --header-filter=.* --checks=$(CLANGTIDYFLAGS) -- -std=$(C_STD)
+	rm -rf $(SOURCE_DIR)/*.dump
+
+debug: clean build
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	lldb $(BIN_DIR)/$(TARGET)
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2023-01-22 13:46:46.016473574
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := clean
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=8/14=57%
+#  recipe to execute (from 'Makefile', line 55):
+	rm -rf $(BIN_DIR) $(ASM_DIR)
+	rm -f $(SOURCE_DIR)/*.o
+
+# Not a target:
+src/main.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+asm: src/main.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 76):
+	$(shell mkdir -p $(ASM_DIR))
+	$(CC) $(ASM) $< -o $(ASM_DIR)/$(TARGET).asm
+
+all: clean build asm debug
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+run: clean build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 68):
+	$(BIN_DIR)/$(TARGET)
+
+build: myapp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+myapp: src/main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	$(shell mkdir -p $(BIN_DIR))
+	$(CC) -o $(BIN_DIR)/$@ $^ $(CFLAGS) $(LDFLAGS)
+
+cppcheck:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 89):
+	cppcheck $(CPPCHECKFLAGS) $(SOURCE_DIR)/*.c
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=14/1024=1%, Rehash=0, Collisions=0/42=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 27 / storage = 195 B / avg = 7 B
+# current buf: size = 8162 B / used = 195 B / count = 27 / avg = 7 B
+
+# strcache performance: lookups = 55 / hit rate = 50%
+# hash-table stats:
+# Load=27/8192=0%, Rehash=0, Collisions=0/55=0%
+# Finished Make data base on Tue Jan 24 22:48:47 2023
+
+ 
