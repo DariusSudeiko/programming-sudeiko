@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jan 26 13:41:00 2023
+# Make data base, printed on Thu Jan 26 13:47:12 2023
 
 # Variables
 
@@ -39,7 +39,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/darius/dev/programming-sudeiko/lab08
+PWD = /home/darius/dev/programming-sudeiko/lab09
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -65,7 +65,7 @@ MAKEFLAGS = pqrR
 # makefile (from 'Makefile', line 20)
 C_STD = gnu17
 # makefile
-CURDIR := /home/darius/dev/programming-sudeiko/lab08
+CURDIR := /home/darius/dev/programming-sudeiko/lab09
 # makefile (from 'Makefile', line 35)
 ASM = -S -mllvm --x86-asm-syntax=intel
 # environment
@@ -255,8 +255,8 @@ LC_IDENTIFICATION = nl_BE.UTF-8
 
 # Directories
 
-# src (device 2051, inode 922559): 5 files, no impossibilities.
-# . (device 2051, inode 917508): 10 files, no impossibilities.
+# src (device 2051, inode 923355): 5 files, no impossibilities.
+# . (device 2051, inode 923351): 10 files, no impossibilities.
 
 # 15 files, no impossibilities in 2 directories.
 
@@ -400,6 +400,6 @@ cppcheck:
 # strcache performance: lookups = 55 / hit rate = 50%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=0/55=0%
-# Finished Make data base on Thu Jan 26 13:41:01 2023
+# Finished Make data base on Thu Jan 26 13:47:12 2023
 
  
