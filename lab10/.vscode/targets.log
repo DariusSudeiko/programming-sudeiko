@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jan 26 16:04:17 2023
+# Make data base, printed on Tue Jan 31 13:14:08 2023
 
 # Variables
 
@@ -39,7 +39,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/darius/dev/programming-sudeiko/lab09
+PWD = /home/darius/dev/programming-sudeiko/lab10
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -55,7 +55,7 @@ LANG = C
 # makefile (from 'Makefile', line 46)
 CPPCHECKFLAGS := --enable=style,warning,missingInclude
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.P3FBZ1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.215EZ1
 # default
 .LOADED := 
 # default
@@ -65,7 +65,7 @@ MAKEFLAGS = pqrR
 # makefile (from 'Makefile', line 20)
 C_STD = gnu17
 # makefile
-CURDIR := /home/darius/dev/programming-sudeiko/lab09
+CURDIR := /home/darius/dev/programming-sudeiko/lab10
 # makefile (from 'Makefile', line 35)
 ASM = -S -mllvm --x86-asm-syntax=intel
 # environment
@@ -95,13 +95,13 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 3194
+VSCODE_PID = 2944
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/darius-VirtualBox:@/tmp/.ICE-unix/1715,unix/darius-VirtualBox:/tmp/.ICE-unix/1715
+SESSION_MANAGER = local/darius-VirtualBox:@/tmp/.ICE-unix/1740,unix/darius-VirtualBox:/tmp/.ICE-unix/1740
 # automatic
 *F = $(notdir $*)
 # environment
@@ -147,7 +147,7 @@ LC_TIME = nl_BE.UTF-8
 # makefile (from 'Makefile', line 38)
 WARN = -Wall -Wextra -Wpedantic -Werror
 # environment
-INVOCATION_ID = 44cf6c4f5b4d4daa8bd2068510b8851d
+INVOCATION_ID = c7a6677863dd488484a0aa8d4640c60d
 # environment
 USERNAME = darius
 # environment
@@ -181,7 +181,7 @@ SOURCE_DIR = src
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 1838
+SYSTEMD_EXEC_PID = 1842
 # environment
 DISPLAY = :0
 # environment
@@ -193,13 +193,13 @@ MAKE_VERSION := 4.3
 # makefile (from 'Makefile', line 18)
 LDFLAGS := -lm
 # environment
-MANAGERPID = 1402
+MANAGERPID = 1417
 # environment
 DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
 # environment
 LC_MEASUREMENT = nl_BE.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 3194
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2944
 # environment
 _ = /usr/share/code/code
 # environment
@@ -209,7 +209,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # makefile (from 'Makefile', line 34)
 CFLAGS := -std=gnu17 -O0 -g -I src -fno-limit-debug-info -fno-standalone-debug
 # environment
-JOURNAL_STREAM = 8:22567
+JOURNAL_STREAM = 8:22560
 # environment
 XDG_SESSION_CLASS = user
 # makefile (from 'Makefile', line 24)
@@ -255,8 +255,8 @@ LC_IDENTIFICATION = nl_BE.UTF-8
 
 # Directories
 
-# src (device 2051, inode 923355): 5 files, no impossibilities.
-# . (device 2051, inode 923351): 10 files, no impossibilities.
+# src (device 2051, inode 918430): 5 files, no impossibilities.
+# . (device 2051, inode 918433): 10 files, no impossibilities.
 
 # 15 files, no impossibilities in 2 directories.
 
@@ -400,6 +400,6 @@ cppcheck:
 # strcache performance: lookups = 55 / hit rate = 50%
 # hash-table stats:
 # Load=27/8192=0%, Rehash=0, Collisions=0/55=0%
-# Finished Make data base on Thu Jan 26 16:04:17 2023
+# Finished Make data base on Tue Jan 31 13:14:08 2023
 
  
